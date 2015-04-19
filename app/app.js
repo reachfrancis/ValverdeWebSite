@@ -51,6 +51,8 @@
 
             }).
 
+            when('/test', {}).
+
             when ('/contact-us',{
 
               }).
