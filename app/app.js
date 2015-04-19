@@ -14,7 +14,7 @@
 
     'use strict';
 
-    var  valverdeCorpApp  = angular.module('valverde_Corp',
+    var  valverdeCorpApp  = angular.module('valCorp',
         [ 'ngRoute',
             'ngAnimate',
             'ui.bootstrap',
