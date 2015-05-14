@@ -19,25 +19,7 @@
       <div ng-include src="'MasterLayout/menu/menuView.html'"> </div>
   </div>
 
-
-  <p>Here we go again!!! </p>
-
-  <div ng-controller="MenuController as menu">
-
-
-      <ul data-ng-repeat="menuItem in menu.menuItems">
-          <li>{{menuItem.Name}}</li>
-
-            <ul data-ng-repeat="menuItem in menuItem.SubMenuItems">
-                 <li>{{menuItem.Name}}</li>
-            </ul>
-
-      </ul>
-
-      <pre> {{menu | json }}</pre>
-  </div>
-
-
+just to try
 
 
 
