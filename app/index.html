@@ -6,7 +6,9 @@
     <link rel="stylesheet" href="../content/CssStyle/application.css"> </link>
 </head>
 
-<body data-ng-app="valCorp">
+
+<body ng-app="valCorp">
+
 
   <div class="header">
     <!-- <img src="../content/images/business-transaction1.jpg" alt="Making your Vision a reality" class="rounded" /> -->
@@ -14,7 +16,25 @@
 
 
   <div class="intro">
-      <div data-ng-include src="'MasterLayout/menu/menuView.html'"> </div>
+      <div ng-include src="'MasterLayout/menu/menuView.html'"> </div>
+  </div>
+
+
+  <p>Here we go again!!! </p>
+
+  <div ng-controller="MenuController as menu">
+
+
+      <ul data-ng-repeat="menuItem in menu.menuItems">
+          <li>{{menuItem.Name}}</li>
+
+            <ul data-ng-repeat="menuItem in menuItem.SubMenuItems">
+                 <li>{{menuItem.Name}}</li>
+            </ul>
+
+      </ul>
+
+      <pre> {{menu | json }}</pre>
   </div>
 
 
