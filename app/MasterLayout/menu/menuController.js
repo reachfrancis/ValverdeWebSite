@@ -3,15 +3,17 @@
  */
 
 // Creates the necessary menu items for the website.
+
 (function() {
     "use strict";
 
     var MenuController = function menuController(dataHeaderMnuConstant) {
 
-        this.mnuItems = ["David", "Francis"];
+        this.menuItems = dataHeaderMnuConstant;
     }
 
-        angular.module('valCorp').controller("MenuController", MenuController);
+    angular.module('valCorp')
+        .controller("MenuController", MenuController);
 
 }());
 

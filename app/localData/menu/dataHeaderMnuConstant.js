@@ -22,19 +22,19 @@
                     "Description": "",
                     "SubMenuItems": [
                             {
-                                "Name": "Industries/distributionSoftware",
+                                "Name": "Industries/distribution Software",
                                 "Title": "Distribution Software",
                                 "Description": "",
                                 "SubMenuItems": null
                             },
                             {
-                                "Name": "Industries/RetailSoftware",
+                                "Name": "Industries/Retail Software",
                                 "Title": "Retail Software",
                                 "Description": "",
                                 "SubMenuItems": null
                             },
                             {
-                                "Name": "industries/GamingSoftware",
+                                "Name": "industries/Gaming Software",
                                 "Title": "Gaming Software ",
                                 "Description": "",
                                 "SubMenuItems": null
@@ -42,7 +42,6 @@
                         ]
                     },
                     {
-
                         "Name": "Register",
                         "Title": "Register",
                         "Description": "",
