@@ -2,7 +2,7 @@
 
    <ul id="items">
       <li  ng-repeat="mnuItem in menu.menuItems">
-         {{mnuItem.Title}}
+         <a ng-href="#{{mnuItem.Name}}">{{mnuItem.Title}} </a>
       </li>
    </ul>
 
