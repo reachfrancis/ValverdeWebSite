@@ -23,23 +23,23 @@
                 caseInsensitiveMatch: true
             }).
            when ("/Products", {
-            templateUrl: 'products/productsView.html',
+            templateUrl: 'MasterLayout/Products/productsView.html',
             caseInsensitiveMatch: true
         }).
         when ("/Solutions", {
-            templateUrl: 'app/',
+            templateUrl: 'MasterLayout/Solutions/solutionView.html',
             caseInsensitiveMatch: true
         }).
         when ("/ContactUs", {
-            templateUrl: 'app/',
+            templateUrl: 'MasterLayout/ContactUs/ContactUsView.html',
             caseInsensitiveMatch: true
         }).
         when ("/Register", {
-            templateUrl: 'app/',
+            templateUrl: 'MasterLayout/Register/RegisterView.html',
             caseInsensitiveMatch: true
         }).
         when ("/Opportunities", {
-            templateUrl: 'app/',
+            templateUrl: 'MasterLayout/Opportunities/OpportunitiesView.html',
             caseInsensitiveMatch: true
         }).
         otherwise( {
