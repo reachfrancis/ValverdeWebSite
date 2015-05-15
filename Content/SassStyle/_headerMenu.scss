@@ -2,6 +2,15 @@
 /// <reference path="_1mixins.scss">
 
 
-// Displays the mainMenu horizontally.
-ul#mainMnu li {display: inline
+section#mainMnu {
+ // position: relative;
+  margin-left: 40em;
+  margin-top: 7em;
+
+  // Displays the mainMenu horizontally.
+    ul li {
+      display: inline;
+      color: red;
+      margin-left:2em;
+  }
 }
