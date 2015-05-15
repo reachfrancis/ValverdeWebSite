@@ -7,8 +7,10 @@
 (function() {
     "use strict";
 
-    var MenuController = function menuController(dataHeaderMnuConstant) {
+    var MenuController = function menuController(dataHeaderMnuConstant, $log) {
 
+        $log.debug("Hello");
+        $log.debug(dataHeaderMnuConstant);
         this.menuItems = dataHeaderMnuConstant;
     }
 

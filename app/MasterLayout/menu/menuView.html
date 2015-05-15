@@ -1,17 +1,7 @@
-
 <div ng-controller="MenuController as menu">
 
-
-
-   <ul ng-repeat="dev in menu.developers">
-       <li>{{dev.firstName}} -- {{dev.lastName}} -- {{dev.state}}</li>
-   </ul>
-
-
+   {{ menu | json}}
 
 </div>
 
 
-
-
-</div>
