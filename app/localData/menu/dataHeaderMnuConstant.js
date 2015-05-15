@@ -17,8 +17,8 @@
                     "SubMenuItems": null
                 },
                 {
-                    "Name": "SERVICES",
-                    "Title": "Services",
+                    "Name": "Products",
+                    "Title": "Products",
                     "Description": "",
                     "SubMenuItems": [
                             {
@@ -42,50 +42,30 @@
                         ]
                     },
                     {
-                        "Name": "Register",
-                        "Title": "Register",
+                        "Name": "Solutions",
+                        "Title": "Solutions",
                         "Description": "",
                         "SubMenuItems": null
                     },
+                     {
+                         "Name": "ContactUs",
+                         "Title": "ContactUs",
+                         "Description": "",
+                         "SubMenuItems": null
+                     },
                     {
-                        "Layout_Level": 2,
-                        "Layout_Position": 8,
-                        "ID": 44,
-                        "SiteMenu_ID": 1,
-                        "Name": "helpcenter",
-                        "Title": "Help Center",
-                        "Description": "",
-                        "URL": "",
-                        "Parent_SiteMenu_ID": 1,
-                        "SubMenuItems": [
-                            {
-                                "Layout_Level": 0,
-                                "Layout_Position": 0,
-                                "ID": 45,
-                                "SiteMenu_ID": 0,
-                                "Name": "helpcenter/contactus",
-                                "Title": "Contact Us",
-                                "Description": "Contact Us",
-                                "URL": "window.open('contact_us.html','menubar=no,toolbar=no,height=600,width=820');",
-                                "Parent_SiteMenu_ID": 44,
-                                "SubMenuItems": null
-                            },
-
-                            {
-                                "Layout_Level": 0,
-                                "Layout_Position": 0,
-                                "ID": 47,
-                                "SiteMenu_ID": 0,
-                                "Name": "helpcenter/faq",
-                                "Title": "FAQ",
-                                "Description": "Frequently Asked Questions",
-                                "URL": "window.open('FAQ.html','menubar=no,toolbar=no, scrollbars=yes,resizable=no,height=800,width=850');",
-                                "Parent_SiteMenu_ID": 44,
-                                "SubMenuItems": null
-                            }
-                        ]
-                    }
-                ]
+                    "Name": "Register",
+                "Title": "Register",
+                "Description": "",
+                "SubMenuItems": null
+            },
+            {
+                "Name": "Opportunities",
+                "Title": "Opportunities",
+                "Description": "",
+                "SubMenuItems": null
+            }
+        ]
     };
 
     angular.module('valCorp').constant("dataHeaderMnuConstant", dataHeaderMnuConstant());

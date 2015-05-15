@@ -13,3 +13,5 @@ Since the command will be modifying the files, you need to check-out the CssStyl
 SassStyle folder since its what you will be modifying.
 
 Watch_and_compile_Sass
+
+2) Run the file CompileSass.cmd

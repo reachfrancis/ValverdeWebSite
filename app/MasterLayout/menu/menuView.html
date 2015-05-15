@@ -1,7 +1,12 @@
-<div ng-controller="MenuController as menu">
+<section  ng-controller="MenuController as menu">
 
-   {{ menu | json}}
+   <ul id="mainMnu">
+      <li  ng-repeat="mnuItem in menu.menuItems">
+         {{mnuItem.Title}}
+      </li>
+   </ul>
 
-</div>
+
+</section>
 
 
