@@ -1,15 +1,20 @@
 /// <reference path="_1cssVars.scss">
 /// <reference path="_1mixins.scss">
 
+section#mainMnu {
+ // position: relative;
+  margin-left: 40em;
+  margin-top: 7em;
 
-// Displays the mainMenu horizontally.
-ul#mainMnu li {
-  display: inline;
-  color: #ffffff;
-  margin-right:20px;
+  // Displays the mainMenu horizontally.
+    ul li {
+      display: inline;
+      margin-left:2em;
+   }
+}
 
-}
-ul#mainMnu{
-  padding-top:100px;
-  float:right;
-}
+
+/// <reference path="_1cssVars.scss">
+/// <reference path="_1mixins.scss">
+
+
