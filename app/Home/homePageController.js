@@ -134,7 +134,7 @@
 
         setInterval(function () {
             if (autoSlideShow) {
-                $apply(updateSlide);
+               // $apply(updateSlide);
             }
 
         }, homeInfo.slideInterval);
