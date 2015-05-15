@@ -1,3 +1,44 @@
 <section id="homePage" ng-controller="HomePageController as homePg">
     <h1>Welcome to the Valverde Home Page</h1>
+
+
+
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-ng-class="{active : homeInfo.currentSlide  === 0}" data-ng-click="homeInfo.showSlide(0)"></li>
+            <li data-ng-class="{active : homeInfo.currentSlide === 1}" data-ng-click="homeInfo.showSlide(1)"></li>
+            <li data-ng-class="{active : homeInfo.currentSlide  === 2}" data-ng-click="homeInfo.showSlide(2)"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+
+
+
+
+        <!-- Controls -->
+        <a class="left carousel-control" role="button" data-slide="prev" data-ng-click="homeInfo.userSlideLeftClick()">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" role="button" data-slide="next" data-ng-click="homeInfo.userSlideRightClick()">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div> <!-- Carousel -->
+
+
+
+      <article>
+    <p> <span class="corpName">Valverde Consulting LLC. </span> specializes in developing
+        custom software for clients in  both the government and the private sector.  The team is lead
+        by a veteran software architect who has lead all phases of software development.
+        The team as a whole strive each day to deliver principled and innovative ideas that exceed client expectations and values!
+        </p>
+
+         <p>
+        <a ng-href="/ContactUs">Contact us</a> today to see how we can make a differences to your organization.
+
+    </p>
+
+      </article>
 </section>
