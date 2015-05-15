@@ -10,9 +10,7 @@
 //  Enclose the application  Use closure since its good Javascript practice.
 (function () {
 
-    var corpWebSite =  angular.module('valCorp', ['ngRoute']);
-
-
+    var corpWebSite =  angular.module('valCorp', ['ngRoute', 'ui.bootstrap', 'ui.bootstrap.carousel']);
 
 
     corpWebSite.config(function ($routeProvider){
