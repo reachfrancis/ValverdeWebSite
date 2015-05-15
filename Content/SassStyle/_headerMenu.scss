@@ -1,7 +1,6 @@
 /// <reference path="_1cssVars.scss">
 /// <reference path="_1mixins.scss">
 
-
 section#mainMnu {
  // position: relative;
   margin-left: 40em;
@@ -10,7 +9,12 @@ section#mainMnu {
   // Displays the mainMenu horizontally.
     ul li {
       display: inline;
-      color: red;
       margin-left:2em;
-  }
 }
+}
+
+
+/// <reference path="_1cssVars.scss">
+/// <reference path="_1mixins.scss">
+
+
