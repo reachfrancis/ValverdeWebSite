@@ -3,5 +3,13 @@
 
 
 // Displays the mainMenu horizontally.
-ul#mainMnu li {display: inline
+ul#mainMnu li {
+  display: inline;
+  color: #ffffff;
+  margin-right:20px;
+
+}
+ul#mainMnu{
+  padding-top:100px;
+  float:right;
 }
