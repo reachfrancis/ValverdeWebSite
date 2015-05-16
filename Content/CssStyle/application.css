@@ -54,4 +54,18 @@ section#mainMnu {
     display: inline;
     margin-left: 2em; }
 
+#slides_control > div {
+  height: 200px; }
+
+img {
+  width: 400px;
+  height: 228px; }
+
+#slides_control {
+  position: absolute;
+  width: 400px;
+  left: 50%;
+  top: 20px;
+  margin-left: -200px; }
+
 /*# sourceMappingURL=application.css.map */
