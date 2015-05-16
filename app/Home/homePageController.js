@@ -33,27 +33,30 @@
 
     var HomePageController = function homeController($log) {
 
-        $log.debug("Hello you are on the HomePage View")
-       var autoSlideShow = true; // Assume that the slideshow is live, the user can turn the slide show off by manipulating the slide via the old click.
+        $log.debug("Hello you are on the HomePage View");
+       //var autoSlideShow = true; // Assume that the slideshow is live, the user can turn the slide show off by manipulating the slide via the old click.
 
 
         this.myInterval = 3000;
         this.slides = [
             {
-                image: '../Content/images/businessplan_free.png'
-            },
-            {
-                image: '../Content/images/bsd_486x302.jpg'
-            },
-
-            {
-                image: '../Content/images/Business-image.jpg'
+                image: '../Content/images/businessProcess.jpg'
             },
             {
                 image: '../Content/images/businessProcess.jpg'
             },
             {
-                image: '../Content/images/retrx_360.jpg'
+                image: '../Content/images/businessProcess.jpg'
+            },
+
+            {
+                image: '../Content/images/businessProcess.jpg'
+            },
+            {
+                image: '../Content/images/businessProcess.jpg'
+            },
+            {
+                image: '../Content/images/businessProcess.jpg'
             }
         ];
 

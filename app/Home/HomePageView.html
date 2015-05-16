@@ -5,27 +5,26 @@
             <div>
             <carousel interval="homePg.myInterval">
                 <slide ng-repeat="slide in homePg.slides" active="slide.active">
-                    <img ng-src="{{slide.image}}" style="width: 400px;height: 200px;">
+                    <img ng-src="{{slide.image}}"  style="height:30em; width: 130em">
                     <div class="carousel-caption">
                         <h4>Slide {{$index+1}}</h4>
                     </div>
                 </slide>
             </carousel>
               </div>
-            </div>
+
 
 
       <article>
-    <p style="margin-top: 20em;"> <span class="corpName">Valverde Consulting LLC. </span> specializes in developing
+     <p style="margin-top: 20em; margin-left: 10em;"> <span class="corpName">Valverde Consulting LLC. </span> specializes in developing
         custom software for clients in  both the government and the private sector.  The team is lead
         by a veteran software architect who has lead all phases of software development.
         The team as a whole strive each day to deliver principled and innovative ideas that exceed client expectations and values!
-        </p>
 
-         <p>
+
         <a ng-href="#/ContactUs">Contact us</a> today to see how we can make a differences to your organization.
 
     </p>
 
       </article>
-</div>
+    </div>
