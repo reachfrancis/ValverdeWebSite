@@ -63,4 +63,40 @@ section#mainMnu {
   top: .1em;
   margin-left: -200px; }
 
-/*# sourceMappingURL=application.css.map */
+#contactUsPage {
+  color: black;
+  border: 5px solid black;
+  margin: 5% 5% 5% 25%;
+  padding: 50 50 50 50;
+  max-width: 50%; }
+
+#contactUspage .form-group {
+  width: 50%; }
+
+#registerPage {
+  border: 5px solid black;
+  margin: 15% 15% 15% 15%; }
+
+#registerPage .form-group.f {
+  color: red; }
+
+#registerPage .form-group.se {
+  color: green; }
+
+#registerPage .form-group.th {
+  color: yellow; }
+
+#registerPage .form-group.fo {
+  color: blue; }
+
+#registerPage .form-group.fi {
+  color: orange; }
+
+#registerPage .form-group.si {
+  color: brown; }
+
+#registerPage .form-group.se {
+  color: purple; }
+
+#registerPage .form-group.ei {
+  color: gray; }

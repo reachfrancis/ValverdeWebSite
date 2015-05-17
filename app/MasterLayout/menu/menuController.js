@@ -12,7 +12,7 @@
         $log.debug("Hello");
         $log.debug(dataHeaderMnuConstant);
         this.menuItems = dataHeaderMnuConstant;
-    }
+    };
 
     angular.module('valCorp')
         .controller("MenuController", MenuController);
