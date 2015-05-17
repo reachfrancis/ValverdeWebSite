@@ -75,7 +75,8 @@ section#mainMnu {
 
 #registerPage {
   border: 5px solid black;
-  margin: 15% 15% 15% 15%; }
+  margin: 15% 15% 15% 15%;
+  padding: 10% 10% 10% 10%; }
 
 #registerPage .form-group.f {
   color: red; }
@@ -84,16 +85,20 @@ section#mainMnu {
   color: green; }
 
 #registerPage .form-group.th {
-  color: yellow; }
+  color: yellow;
+  width: 20%; }
 
 #registerPage .form-group.fo {
-  color: blue; }
+  color: blue;
+  width: 20%; }
 
 #registerPage .form-group.fi {
-  color: orange; }
+  color: orange;
+  width: 20%; }
 
 #registerPage .form-group.si {
-  color: brown; }
+  color: brown;
+  width: 40%; }
 
 #registerPage .form-group.se {
   color: purple; }
