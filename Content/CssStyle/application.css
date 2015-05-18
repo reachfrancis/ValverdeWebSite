@@ -1,3 +1,4 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_main\.scss}line{font-family:\000031}}
 .header {
   box-shadow: 2px 2px 2px 2px #bdbdbd, 0 2px 0 #fff;
   width: 100%;
@@ -5,6 +6,7 @@
   background: linear-gradient(#ceefff, #92d3fa);
   overflow: hidden; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_main\.scss}line{font-family:\0000313}}
 .header .compTitle {
   position: absolute;
   color: #ffffff;
@@ -15,6 +17,7 @@
   text-shadow: 1px 3px 4px #d3d3d3;
   /*border-style: solid;*/ }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_main\.scss}line{font-family:\0000326}}
 .rounded {
   margin-left: .5em;
   margin-top: .1em;
@@ -24,10 +27,12 @@
   box-shadow: -1px 1px 20px 4px rgba(255, 255, 255, 0.66);
   -webkit-border-bottom-image: blur(4px); }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_main\.scss}line{font-family:\0000337}}
 .btn {
   /*box-shadow: 2px 2px 1px  0 #5e8856; */
   box-shadow: 2px 0 1px 0 #96c8a, 0 1px 0 #fff; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_main\.scss}line{font-family:\0000343}}
 .news {
   border-style: solid;
   position: absolute;
@@ -37,6 +42,7 @@
   width: 225px;
   height: 210px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_main\.scss}line{font-family:\0000356}}
 .parent {
   position: relative;
   border: solid;
@@ -44,65 +50,124 @@
   height: 12em;
   overflow: hidden; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_main\.scss}line{font-family:\0000365}}
 img {
   float: left; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_headerMenu\.scss}line{font-family:\000034}}
 section#mainMnu {
   margin-left: 40em;
   margin-top: 7em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_headerMenu\.scss}line{font-family:\0000310}}
   section#mainMnu ul li {
     display: inline;
     margin-left: 2em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_homePage\.scss}line{font-family:\000031}}
 #slides_control > div {
   height: 200px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_homePage\.scss}line{font-family:\000038}}
 #slides_control {
   position: absolute;
   left: 10%;
   top: .1em;
   margin-left: -200px; }
 
-#contactUsPage {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_ContactView\.scss}line{font-family:\000033}}
+.contactForm {
+  background-image: url(../images/Grey_business_ppt_template.jpg);
   color: black;
-  border: 5px solid black;
-  margin: 5% 5% 5% 25%;
-  padding: 50 50 50 50;
-  max-width: 50%; }
+  border: 2.5px solid black;
+  margin: 0% 0.01% 5% 0.01%;
+  padding: 50px 50px 50px 50px;
+  max-width: 100%;
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_ContactView\.scss}line{font-family:\0000311}}
+  .contactForm .form-group {
+    width: 50%; }
 
-#contactUspage .form-group {
-  width: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_ContactView\.scss}line{font-family:\0000316}}
+.bodyForm {
+  background-color: #DEDEDB;
+  border: 2.5px solid black;
+  margin-top: -4.99%;
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_ContactView\.scss}line{font-family:\0000322}}
+  .bodyForm .topForm .row {
+    display: inline-block;
+    margin-left: 8%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 0%;
+    max-width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_ContactView\.scss}line{font-family:\0000329}}
+    .bodyForm .topForm .row .thumbnail {
+      width: 500%;
+      height: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_ContactView\.scss}line{font-family:\0000332}}
+      .bodyForm .topForm .row .thumbnail p {
+        padding-top: 10%;
+        padding-right: 10%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_ContactView\.scss}line{font-family:\0000336}}
+      .bodyForm .topForm .row .thumbnail .btn.btn-primary {
+        margin-top: 70%;
+        margin-left: 38%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_ContactView\.scss}line{font-family:\0000345}}
+  .bodyForm .bottomForm .container.marketing {
+    margin-top: 10%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_ContactView\.scss}line{font-family:\0000347}}
+    .bodyForm .bottomForm .container.marketing .img-circle {
+      margin-left: 30%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_ContactView\.scss}line{font-family:\0000350}}
+    .bodyForm .bottomForm .container.marketing h2 {
+      margin-top: 50%;
+      padding-left: 35%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_ContactView\.scss}line{font-family:\0000358}}
+.footerForm {
+  background-color: #244862;
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_ContactView\.scss}line{font-family:\0000361}}
+  .footerForm .footerStyle {
+    padding-bottom: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_ContactView\.scss}line{font-family:\0000363}}
+    .footerForm .footerStyle blockquote {
+      margin-top: 0%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_ContactView\.scss}line{font-family:\0000365}}
+      .footerForm .footerStyle blockquote p {
+        color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_ContactView\.scss}line{font-family:\0000368}}
+      .footerForm .footerStyle blockquote footer {
+        color: white; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_RegisterView\.scss}line{font-family:\000031}}
 #registerPage {
   border: 5px solid black;
   margin: 15% 15% 15% 15%;
   padding: 10% 10% 10% 10%; }
-
-#registerPage .form-group.f {
-  color: black; }
-
-#registerPage .form-group.se {
-  color: black; }
-
-#registerPage .form-group.th {
-  color: black;
-  width: 20%; }
-
-#registerPage .form-group.fo {
-  color: black;
-  width: 20%; }
-
-#registerPage .form-group.fi {
-  color: black;
-  width: 20%; }
-
-#registerPage .form-group.si {
-  color: black;
-  width: 40%; }
-
-#registerPage .form-group.sev {
-  color: black;
-  max-width: 10%; }
-
-#registerPage .form-group.ei {
-  color: gray; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_RegisterView\.scss}line{font-family:\000036}}
+  #registerPage .form-group .se {
+    color: green; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_RegisterView\.scss}line{font-family:\000039}}
+  #registerPage .form-group .th {
+    color: yellow;
+    width: 20%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_RegisterView\.scss}line{font-family:\0000313}}
+  #registerPage .form-group .fo {
+    color: blue;
+    width: 20%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_RegisterView\.scss}line{font-family:\0000317}}
+  #registerPage .form-group .fi {
+    color: orange;
+    width: 20%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_RegisterView\.scss}line{font-family:\0000321}}
+  #registerPage .form-group .si {
+    color: brown;
+    width: 40%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_RegisterView\.scss}line{font-family:\0000325}}
+  #registerPage .form-group .se {
+    color: purple; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_RegisterView\.scss}line{font-family:\0000328}}
+  #registerPage .form-group .ei {
+    color: gray; }

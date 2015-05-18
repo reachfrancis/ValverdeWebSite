@@ -6,7 +6,7 @@
 
     var RegisterController = function RegisterController ($log) {
         $log.debug("Hello You are on the Register View")
-    };
+};
     
     angular.module('valCorp')
         .controller("RegisterController",RegisterController); 

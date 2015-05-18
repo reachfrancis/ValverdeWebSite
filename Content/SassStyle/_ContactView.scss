@@ -1,14 +1,73 @@
 //Dedicated sole for ContactView
 
-#contactUsPage {
+.contactForm {
+    background-image: url(../images/Grey_business_ppt_template.jpg);
+    color: black;
+    border: 2.5px solid black;
+    margin: 0% 0.01% 5% 0.01%;
+    padding: 50px 50px 50px 50px;
+    max-width: 100%;
+    position: relative;
+    .form-group {
+        width: 50%;
+    }
+}
 
-	color:black;
-	border: 5px solid black;
-	margin: 5% 5% 5% 25%;
-	padding:50 50 50 50;
-	max-width: 50%;
+.bodyForm {
+    background-color: #DEDEDB;
+    border: 2.5px solid black;
+    margin-top: -4.99%;
+    position: relative;
+    .topForm {
+        .row {
+            display: inline-block;
+            margin-left: 8%;
+            margin-right: 5%;
+            margin-top: 2%;
+            margin-bottom: 0%;
+            max-width: 100%;
+            .thumbnail {
+                width: 500%;
+                height: 50%;
+                p {
+                    padding-top: 10%;
+                    padding-right: 10%;
+                }
+                .btn.btn-primary{
+                	margin-top: 70%;
+                	margin-left: 38%;
+
+                }
+            }
+        }
+    }
+    .bottomForm {
+        .container.marketing {
+        	margin-top: 10%;
+            .img-circle{
+            	margin-left: 30%;
+            }
+            h2 {
+                margin-top: 50%;
+                padding-left: 35%;
+            }
+        }
+    }
 }
-.form-group{
-	width: 50%;
+
+.footerForm {
+    background-color: #244862;
+    position: relative;
+    .footerStyle {
+        padding-bottom: 20px;
+        blockquote {
+            margin-top: 0%;
+            p {
+                color: white;
+            }
+            footer {
+                color: white;
+            }
+        }
+    }
 }
-} 
