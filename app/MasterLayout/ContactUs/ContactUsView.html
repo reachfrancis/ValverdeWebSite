@@ -1,16 +1,16 @@
 <section id="contactUsPage" ng-controller="ContactController as ContactUs">
     <h1>Welcome to the Contact Us Page View</h1>
     
-    <div ng-controller="TooltipDemoCtrl" ng-class="ContactUs">
+    <div ng-controller="TooltipCtrl" ng-class="ContactUs">
 
     <div class="form-group">
         <label>Name:</label>
-        <input type="text" ng-model="dynamicTooltipText" class="form-control">
+        <input type="text" ng-model="dynamicTooltipFull" class="form-control">
         </div>
 
     <div class="form-group">
         <label>Email:</label>
-        <input type="text" ng-model="dynamicTooltip" class="form-control">
+        <input type="text" ng-model="dynamicToolEmail" class="form-control">
         </div>
 
         <p>
@@ -31,9 +31,9 @@
           </p>
 
     <form role="form">
-        <div class="form-group" "Submit">
+        <div class="form-group" value"Submit">
             <label>Leave a Message</label>
-            <input type="text" value="Click me!" tooltip="See? Now click away..."  tooltip-trigger="focus" tooltip-placement="right" class="form-control" /></div>
+            <input type="text" value="" tooltip=""  tooltip-trigger="focus" tooltip-placement="right" class="form-control" /></div>
     </form>
     <form action="demo.php" method="post">
         <input type="submit" value="Submit">

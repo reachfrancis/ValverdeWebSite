@@ -15,7 +15,7 @@
     };
 
     angular.module('valCorp')
-        .controller("MenuController", MenuController);
+        .controller("MenuController", MenuController)
 
 }());
 

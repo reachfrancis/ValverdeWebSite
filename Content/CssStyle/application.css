@@ -79,29 +79,30 @@ section#mainMnu {
   padding: 10% 10% 10% 10%; }
 
 #registerPage .form-group.f {
-  color: red; }
+  color: black; }
 
 #registerPage .form-group.se {
-  color: green; }
+  color: black; }
 
 #registerPage .form-group.th {
-  color: yellow;
+  color: black;
   width: 20%; }
 
 #registerPage .form-group.fo {
-  color: blue;
+  color: black;
   width: 20%; }
 
 #registerPage .form-group.fi {
-  color: orange;
+  color: black;
   width: 20%; }
 
 #registerPage .form-group.si {
-  color: brown;
+  color: black;
   width: 40%; }
 
-#registerPage .form-group.se {
-  color: purple; }
+#registerPage .form-group.sev {
+  color: black;
+  max-width: 10%; }
 
 #registerPage .form-group.ei {
   color: gray; }

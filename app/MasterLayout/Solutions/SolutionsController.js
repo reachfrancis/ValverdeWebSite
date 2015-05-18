@@ -4,7 +4,7 @@
 (function() {
     "use strict";
 
-    var SolutionController = function ProductController ($log) {
+    var SolutionController = function SolutionController ($log) {
         $log.debug("Hello You are on the Solution View")
     };
 

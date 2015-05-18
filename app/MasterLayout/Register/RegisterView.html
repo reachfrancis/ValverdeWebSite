@@ -1,42 +1,41 @@
 <section id="registerPage" ng-controller="RegisterController as Register">
     <h1>Welcome to the Register Page View</h1>
- <div ng-controller="TooltipDemoCtrl" ng-class="Register">   
+ <div ng-controller="TooltipCtrl" ng-class="Register">   
     <div class="form-group f">
       <label>First Name</label>
-      <input type="*First Name" ng-model="dynamicTooltipText" class="form-control">
+      <input type="*First Name" ng-model="dynamicTooltipFirst" class="form-control">
     </div>
     <div class="form-group se">
       <label>Last Name</label>
-      <input type="*Last Name" ng-model="dynamicTooltipText" class="form-control">
+      <input type="*Last Name" ng-model="dynamicTooltipLast" class="form-control">
     </div>
     <div class="form-group th">
       <label>City</label>
-      <input type="*City" ng-model="dynamicTooltipText" class="form-control">
+      <input type="*City" ng-model="dynamicTooltipCity" class="form-control">
     </div>
     <div class="form-group fo">
       <label>State</label>
-      <input type="*State" ng-model="dynamicTooltipText" class="form-control">
+      <input type="*State" ng-model="dynamicTooltipState" class="form-control">
     </div>
     <div class="form-group fi">
       <label>Zip</label>
-      <input type="*Zip" ng-model="dynamicTooltipText" class="form-control">
+      <input type="*Zip" ng-model="dynamicTooltipZip" class="form-control">
     </div>
     <div class="form-group si">
       <label>Email Address</label>
-      <input type="*Email Address" ng-model="dynamicTooltipText" class="form-control">
+      <input type="*Email Address" ng-model="dynamicTooltipEmail" class="form-control">
     </div>
-    <div class="form-group se">
+    <div class="form-group sev">
       <label>Age</label>
-      <input type="text" ng-model="dynamicTooltipText" class="form-control">
+      <input type="text" ng-model="dynamicTooltipAge" class="form-control">
     </div>
     <div class="form-group ei">
       <label>Gender</label><br><br>
-	      <input type="radio" name="genderRadio" value="Male" ng-model="dynamicTooltipText" >
+	      <input type="radio" name="genderRadio" value="Male" ng-model="dynamicTooltipGender" >
 	      	 <label>Male</label>
-	      <input type="radio" name="genderRadio" value="Female" ng-model="dyna
-	      micTooltipText" >
+	      <input type="radio" name="genderRadio" value="Female" ng-model="dynamicTooltipGender" >
 	     	 <label>Female</label>
-	      <input type="radio" name="genderRadio" value="Other" ng-model="dynamicTooltipText" >
+	      <input type="radio" name="genderRadio" value="Other" ng-model="dynamicTooltipGender" >
 	      <label>Other</label>
     </div>
 </div>    
