@@ -144,7 +144,7 @@ section#mainMnu {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_RegisterView\.scss}line{font-family:\000031}}
 #registerPage {
   background-image: url(../images/Internet-Business5.jpg);
-  margin-top: -1.5%;
+  margin-top: 0%;
   border: 2.5px solid black; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_RegisterView\.scss}line{font-family:\000037}}
   #registerPage h1 {
