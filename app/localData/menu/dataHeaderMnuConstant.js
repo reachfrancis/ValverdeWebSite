@@ -68,7 +68,8 @@
         ]
     };
 
-    angular.module('valCorp').constant("dataHeaderMnuConstant", dataHeaderMnuConstant());
+    angular.module('valCorp')
+    .constant("dataHeaderMnuConstant", dataHeaderMnuConstant());
 
-}())
+}());
 

@@ -17,14 +17,14 @@
     "use strict";
 
     var TooltipCtrl = function TooltipCtrl($scope, $sce) {
-          $scope.dynamicTooltipFull= 'Full Name';
-          $scope.dynamicTooltipFirst = 'First Name';
-          $scope.dynamicTooltipLast = 'Last Name';
-          $scope.dynamicTooltipCity = 'City';
-          $scope.dynamicTooltipState = 'State';
-          $scope.dynamicTooltipZip = 'Zip';
-          $scope.dynamicTooltipEmail = 'Ex: example@mail.com';
-          $scope.dynamicTooltipAge= 'Age';
+          $scope.dynamicTooltipFull= [];
+          $scope.dynamicTooltipFirst = [];
+        $scope.dynamicTooltipLast = [];
+          $scope.dynamicTooltipCity =[];
+        $scope.dynamicTooltipState = [];
+          $scope.dynamicTooltipZip = [];
+          $scope.dynamicTooltipEmail = [];
+          $scope.dynamicTooltipAge= [];
           $scope.dynamicTooltipGender = 'Sex: male,femlae, other';
           $scope.htmlTooltip = $sce.trustAsHtml('I\'ve been made <b>bold</b>!');
 };

@@ -102,42 +102,59 @@ section#mainMnu {
     margin-bottom: 0%;
     max-width: 100%; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_ContactView\.scss}line{font-family:\0000329}}
-    .bodyForm .topForm .row .thumbnail {
-      width: 500%;
-      height: 50%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_ContactView\.scss}line{font-family:\0000332}}
-      .bodyForm .topForm .row .thumbnail p {
-        padding-top: 10%;
-        padding-right: 10%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_ContactView\.scss}line{font-family:\0000336}}
-      .bodyForm .topForm .row .thumbnail .btn.btn-primary {
-        margin-top: 70%;
-        margin-left: 38%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_ContactView\.scss}line{font-family:\0000345}}
+    .bodyForm .topForm .row .col-sm-6 {
+      width: 120%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_ContactView\.scss}line{font-family:\0000331}}
+      .bodyForm .topForm .row .col-sm-6 .thumbnail {
+        height: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_ContactView\.scss}line{font-family:\0000333}}
+        .bodyForm .topForm .row .col-sm-6 .thumbnail .caption {
+          max-height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_ContactView\.scss}line{font-family:\0000335}}
+          .bodyForm .topForm .row .col-sm-6 .thumbnail .caption h3 {
+            max-width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_ContactView\.scss}line{font-family:\0000339}}
+          .bodyForm .topForm .row .col-sm-6 .thumbnail .caption p img {
+            margin: 50px 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_ContactView\.scss}line{font-family:\0000344}}
+          .bodyForm .topForm .row .col-sm-6 .thumbnail .caption p a {
+            margin: 160px 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_ContactView\.scss}line{font-family:\0000346}}
+            .bodyForm .topForm .row .col-sm-6 .thumbnail .caption p a .btn btn-primary {
+              max-height: 100%;
+              padding: 10px 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_ContactView\.scss}line{font-family:\0000358}}
   .bodyForm .bottomForm .container.marketing {
+    padding-bottom: 10%;
     margin-top: 10%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_ContactView\.scss}line{font-family:\0000348}}
-    .bodyForm .bottomForm .container.marketing .img-circle {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_ContactView\.scss}line{font-family:\0000363}}
+    .bodyForm .bottomForm .container.marketing .col-lg-4 .img-circle {
       margin-left: 30%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_ContactView\.scss}line{font-family:\0000351}}
-    .bodyForm .bottomForm .container.marketing h2 {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_ContactView\.scss}line{font-family:\0000366}}
+    .bodyForm .bottomForm .container.marketing .col-lg-4 h2 {
       margin-top: 50%;
       margin-left: 33%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_ContactView\.scss}line{font-family:\0000370}}
+    .bodyForm .bottomForm .container.marketing .col-lg-4 p {
+      text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_ContactView\.scss}line{font-family:\0000374}}
+    .bodyForm .bottomForm .container.marketing .col-lg-4 p a {
+      display: inline; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_ContactView\.scss}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_ContactView\.scss}line{font-family:\0000383}}
 .generalFooter {
   background-color: #244862;
   position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_ContactView\.scss}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_ContactView\.scss}line{font-family:\0000386}}
   .generalFooter .footerStyle {
     padding-bottom: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_ContactView\.scss}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_ContactView\.scss}line{font-family:\0000388}}
     .generalFooter .footerStyle blockquote {
       margin-top: 0%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_ContactView\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_ContactView\.scss}line{font-family:\0000390}}
       .generalFooter .footerStyle blockquote p {
         color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_ContactView\.scss}line{font-family:\0000369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_ContactView\.scss}line{font-family:\0000393}}
       .generalFooter .footerStyle blockquote footer {
         color: white; }
 
