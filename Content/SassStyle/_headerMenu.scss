@@ -12,7 +12,15 @@ section#mainMnu {
       margin-left:2em;
    }
 }
+#header{
+	img{
+	margin-top: -60px;
+	float:left; 
+	width: 500px;
+	height: 100px;
+    }
 
+}
 
 /// <reference path="_1cssVars.scss">
 /// <reference path="_1mixins.scss">

@@ -63,6 +63,13 @@ section#mainMnu {
     display: inline;
     margin-left: 2em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_headerMenu\.scss}line{font-family:\0000316}}
+#header img {
+  margin-top: -60px;
+  float: left;
+  width: 500px;
+  height: 100px; }
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/ValverdeWebSite\/ValverdeWebSited\/Content\/SassStyle\/_homePage\.scss}line{font-family:\000031}}
 #slides_control > div {
   height: 200px; }
