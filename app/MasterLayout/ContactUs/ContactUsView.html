@@ -2,9 +2,10 @@
     
     
     <div  ng-controller="TooltipCtrl" ng-class="ContactUs">
-          <!--The fill-out form for the Contact Us -->
+
+              <!--contactFoam -->
       <div class="contactForm">
-        <h1>Welcome!!! Please Contact Us</h1>
+            <h1>Welcome!!! Please Contact Us</h1>
             <div class="form-group">
               <label>Name:</label>
               <input type="text" ng-model="dynamicTooltipFull" class="form-control">
@@ -18,26 +19,27 @@
             <p>
               Thank you for visiting our website we hope that we were able to proved you with 
               the information needed. But if not, we at Valverde Consulting would like for you to 
-              leave your name and email as well as a message with any inquiries. Contact us by
+              leave your name and email as well as a message with any inqußiries. Contact us by
               filling out the form or requesting a quote. Feel free to give us a call as well 
               - we are available to discuss your specific project needs in greater detail to 
               help find the best solution for you and your business.
             </p>
 
-            <form role="form">
-        <div class="form-group" value=Submit">
-            <label>Leave a Message</label>
-            <input type="text" value="" tooltip=""  tooltip-trigger="focus" tooltip-placement="right" class="form-control" />
-            </form>
-            <form action="demo.php" method="post">
-        <input type="submit" value="Submit">
-        </form>
-        </div>
-        </div>
+            
+             <div class="form-group" value="Submit">
+             <form role="form">
+              <label>Leave a Message</label>
+              <input type="text" value="" tooltip=""  tooltip-trigger="focus" tooltip-placement="right" class="form-control" />
+              </form>
+              <form action="demo.php" method="post">
+              <input type="submit" value="Submit">
+              </form>
+            </div>   
+      </div> <!--/contactForm/-->
         
-        <!--Body of the ContactUs page-->
+              <!--bodyForm-->
       <div class="bodyForm">
-        <!--Top of the Body-->
+                  <!--topForm-->
           <div class="topForm">
                 
               
@@ -81,10 +83,10 @@
                 </div>
               </div>
               </div>
-            </div>
+          </div> <!--/topForm/-->
                       
-            <!-- Three columns of text below the carousel -->
-            <!--Bottom of the Body-->
+            
+                  <!--bottomForm-->
           <div class="bottomForm">
 
             <div class="container marketing">
@@ -110,21 +112,19 @@
                   </div><!-- /.col-lg-4 -->
                 </div><!-- /.row -->
                </div>  
-               </div>
+          </div> <!--/bottomForm/-->
 
                                           
      <!--Footer for the contact us page-->
-      <div class="generalFooter">
-      <div class="footerStyle">
-          <blockquote>
+          </div><!--/bodyForm/-->
+          <div  class="generalFooter" >
+       <div class="footerStyle" >
+           <blockquote>
             <a href="">Terms and Conditions of Use & Disclaimer.</a>
-            <p>This website and its content is copyright of Valverde IT. LLC - © Valverde IT. LLC 2015. All rights reserved. 
+            <p>This website and its content is copyright of Valverde IT. LLC - © Valverde IT. LLC 2015. All rights reserved.  
             </p>
           </blockquote>
           </div>
-          </div>
-          </div>
-    </div>   
-       </section>
-   
-    
+          </div> 
+    </div>    
+</section>

@@ -1,14 +1,42 @@
-#slides_control > div{
-  height: 200px;
+#slides_control > div {
+    height: 200px;
+    margin-top:-15px; 
 }
-img{
 
+img {
 
 }
+
 #slides_control {
-  position:absolute;
- // width: 800px;
-  left:10%;
-  top:.1em;
-  margin-left:-200px;
+    position: absolute;
+    // width: 800px;    
+    left: 10%;
+    top: .1em;
+    margin-left: -200px;
+
+}
+
+.upperbody {
+	background-color: #F2F2F2;
+    margin-top: 422px;
+    margin-left: 0px;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 420 0;
+}
+
+.middlebody {
+	
+	background-color: #ACDFFD;
+    margin-top: 0px;
+    margin-left: 0px;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 180 0;
+}
+article{
+	p{
+		margin-right: 75px;
+		text-align: center;
+	}
 }

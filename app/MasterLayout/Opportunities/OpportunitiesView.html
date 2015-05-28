@@ -1,4 +1,74 @@
 <section id="opportPage" ng-controller="OpportunitiesController as Opport">
     <h1>Welcome to the Opportunities Page View</h1>
+    <div class="introSection">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+
+    <div class="searchMenu">
+        <input type="search" name="" value="" placeholder="">
+        <div class="filterList">
+            <input type="button" name="Search" value="Search">
+        </div>
+        <div class="searchList" ng-options="select as label for value in array">
+        	
+        </div>
+    </div>
+
+    <div class="jobPosting">
+        <b>Job Postings</b>
+        <div class="postingReturn" >
+            <li>{{sample}}</li>
+            <!-- demo code -->
+            <table>
+            	<caption>table title and/or explanatory text</caption>
+            	<thead>
+            		<tr>
+            			<th>header</th>
+            		</tr>
+            	</thead>
+            	<tbody>
+            		<tr>
+            			<td>data</td>
+            		</tr>
+            	</tbody>
+            </table>
+        </div>
+    </div>
     
+
+
+
+    <div class="jobDescription">
+        <input type="text" name="" value="" placeholder="">
+        <ul>
+        	<li class="descriptonReturn " >
+        		{{sample}}
+        		<!-- demo code -->
+        		<table>
+        			<caption>table title and/or explanatory text</caption>
+        			<thead>
+        				<tr>
+        					<th>header</th>
+        				</tr>
+        			</thead>
+        			<tbody>
+        				<tr>
+        					<td>data</td>
+        				</tr>
+        			</tbody>
+        		</table>
+        	</li>
+        </ul>	
+    </div>
+
+    <div class="generalFooter">
+        <div class="footerStyle">
+            <blockquote>
+                <a href="">Terms and Conditions of Use & Disclaimer.</a>
+                <p>This website and its content is copyright of Valverde IT. LLC - © Valverde IT. LLC 2015. All rights reserved.
+                </p>
+            </blockquote>
+        </div>
+    </div>
 </section>

@@ -1,9 +1,10 @@
 #registerPage{
     //background-image: url(../images/Grey_business_ppt_template.jpg);
-    background-image: url(../images/Internet-Business5.jpg);
+    //background-image: url(../images/Internet-Business5.jpg);
     //background-color: #DEDEDB;
+     background-color: black;
     margin-top: 0%;
-    border: 2.5px solid black;
+    border: 2.5px solid red;
     h1{
         color:black;
         outline: blue;
@@ -14,45 +15,46 @@
 
     }
 }
-
+$color: white;
 .Registration   {
-    opacity: 0.7;
-    border: 5px solid black;
-    margin: 10% 5% 0% 5%;
-    padding: 10% 10% 10% 10%;
-    margin-bottom: 10%;
-    background-color:white;
+
+    // opacity: 0.7;
+    border: 5px solid green;
+    // margin: 10% 5% 0% 5%;
+     padding: 10% 10% 10% 10%;
+     margin-bottom: 10%;
+    background-color:gray;
     font-weight: bold;
     .form-group {
         opacity: 1;
         &.f{
-            color:pink;
+            color:$color;
         }
 
         &.se {
-            color: green;
+            color:$color;
         }
         &.th {
-            color: yellow;
+            color:$color;
             width: 20%;
         }
         &.fo {
-            color: blue;
+            color:$color;
             width: 20%;
         }
         &.fi {
-            color: orange;
+            color:$color;
             width: 20%;
         }
         &.si {
-            color: brown;
+            color:$color;
             width: 40%;
         }
         &.sev {
-            color: purple;
+            color:$color;
         }
         &.ei {
-            color: red;
+            color:$color;
         }
     }
 }

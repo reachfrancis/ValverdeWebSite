@@ -37,30 +37,30 @@
        //var autoSlideShow = true; // Assume that the slideshow is live, the user can turn the slide show off by manipulating the slide via the old click.
 
 
-        this.myInterval = 3000;
+        this.myInterval = 0;
         this.slides = [
             {
-                image: '../Content/images/businessProcess.jpg'
+                image: '../Content/images/bg.jpg'
             },
             {
                 image: '../Content/images/businessProcess.jpg'
             },
             {
-                image: '../Content/images/businessProcess.jpg'
+                image: '../Content/images/iStock_000016097473XSmall_610_300_s_c1_center_center.jpg'
             },
 
             {
-                image: '../Content/images/businessProcess.jpg'
+                image: '../Content/images/Free-Business-Checking-Featured-Product-Photo.jpg'
             },
             {
-                image: '../Content/images/businessProcess.jpg'
+                image: '../Content/images/retrx_360.jpg'
             },
             {
-                image: '../Content/images/businessProcess.jpg'
+                image: '../Content/images/images.jpg'
             }
         ];
 
-    }
+    };
 
     angular.module('valCorp')
         .controller("HomePageController", HomePageController);
