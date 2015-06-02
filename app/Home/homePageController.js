@@ -43,20 +43,20 @@
                 image: '../Content/images/bg.jpg'
             },
             {
-                image: '../Content/images/businessProcess.jpg'
+                image: '../Content/images/bg.jpg'
             },
             {
-                image: '../Content/images/iStock_000016097473XSmall_610_300_s_c1_center_center.jpg'
+                image: '../Content/images/bg.jpg'
             },
 
             {
-                image: '../Content/images/Free-Business-Checking-Featured-Product-Photo.jpg'
+                image: '../Content/images/bg.jpg'
             },
             {
-                image: '../Content/images/retrx_360.jpg'
+                image: '../Content/images/bg.jpg'
             },
             {
-                image: '../Content/images/images.jpg'
+                image: '../Content/images/bg.jpg'
             }
         ];
 
@@ -66,4 +66,26 @@
         .controller("HomePageController", HomePageController);
 
 }());
+
+// angular.module('ui.bootstrap.demo').controller('DropdownCtrl', function ($scope, $log) {
+//   $scope.items = [
+//     'The first choice!',
+//     'And another choice for you.',
+//     'but wait! A third!'
+//   ];
+
+//   $scope.status = {
+//     isopen: false
+//   };
+
+//   $scope.toggled = function(open) {
+//     $log.log('Dropdown is now: ', open);
+//   };
+
+//   $scope.toggleDropdown = function($event) {
+//     $event.preventDefault();
+//     $event.stopPropagation();
+//     $scope.status.isopen = !$scope.status.isopen;
+//   };
+// });
 
