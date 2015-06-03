@@ -40,23 +40,23 @@
         this.myInterval = 0;
         this.slides = [
             {
-                image: '../Content/images/bg.jpg'
+                image: '../Content/images/businessProcess.jpg'
             },
             {
-                image: '../Content/images/bg.jpg'
+                image: '../Content/images/businessProcess.jpg'
             },
             {
-                image: '../Content/images/bg.jpg'
+                image: '../Content/images/businessProcess.jpg'
             },
 
             {
-                image: '../Content/images/bg.jpg'
+                image: '../Content/images/businessProcess.jpg'
             },
             {
-                image: '../Content/images/bg.jpg'
+                image: '../Content/images/businessProcess.jpg'
             },
             {
-                image: '../Content/images/bg.jpg'
+                image: '../Content/images/businessProcess.jpg'
             }
         ];
 

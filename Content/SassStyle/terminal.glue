@@ -1,0 +1,17 @@
+ █ [ /ValverdeWebSite/ValverdeWebSited/Content/SassStyle ] ls
+CssStyle
+_1Common.scss
+_1CssVars.scss
+_1MasterPgLayout.scss
+_1mixins.scss
+_ContactView.scss
+_CrumbTrailStyle.scss
+_OpportunitiesView.scss
+_RegisterView.scss
+_headerMenu.scss
+_homePage.scss
+_main.scss
+_resetOverrides.scss
+application.scss
+terminal.glue
+
