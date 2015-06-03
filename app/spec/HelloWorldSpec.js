@@ -1,6 +1,4 @@
-/**
- * Created by Francis on 5/9/2015.
- */
+
 // Tests
 describe("HelloWorld tests", function() {
     it('returns correct value', function(){

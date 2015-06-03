@@ -33,25 +33,3 @@
         .controller('TooltipCtrl', TooltipCtrl);
 
 }());
-
-(function(){
-  "use strict";
-
-  var generalFooter = function generalFooter($scope, $sce){
-    $scope.FooterGenerator = $sce.trustAsHtml('<div  class="generalFooter" >' +
-         '<div class="footerStyle" >' +
-         '<div class="footerStyle" >' +
-         '<input type="text" name="FooterGenerator" value="">' +
-         '<blockquote>' +
-         ' <a href="">Terms and Conditions of Use & Disclaimer.</a>' +
-         ' <p>This website and its content is copyright of Valverde IT. LLC - © Valverde IT. LLC 2015. All rights reserved. </p>'+
-         '</blockquote>'+
-         '</div>'+
-         '</div>');
-         
-  };
-
-  angular.module('valCorp')
-        .controller('generalFooter', generalFooter);
-
-}());

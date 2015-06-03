@@ -1,7 +1,8 @@
-.introSection{
 
-	border: 2px solid red;
-	background-color: black;
+.introSection{
+background-image: url(../images/Grey_business_ppt_template.jpg);
+	// border: 2px solid red;
+	// background-color: black;
 	width: 1000px;
 	height: 500px;
 	p{
@@ -12,8 +13,8 @@
 }
 .searchMenu{
 	margin-top: -500px;
-	border: 2px solid red;
-	background-color: black;
+	// border: 2px solid red;
+	// background-color: black;
 	width: 200px;
 	float: right;
 	.filterList{
@@ -26,8 +27,8 @@
 }
 .jobPosting{
 	width: 100%;
-	border: 2px solid red;
-	background-color: black;
+	// border: 2px solid red;
+	// background-color: black;
 	.searchMenu{
 		padding: 40px 40px;
 		
@@ -37,8 +38,8 @@
 
 
 .jobDescription{
-	border: 2px solid red;
-	background-color: black;
+	// border: 2px solid red;
+	// background-color: black;
 	width: 100%;
 	padding: 20px 20px;
 	
