@@ -1,6 +1,4 @@
-/**
- * Created by Francis on 4/19/2015.
- */
+
 /// <reference path="/app/library/google/angular-1.3.15/angular.js" />
 
 // TODO, move this menu into a separate JSON file and write a service which picks the menu from the

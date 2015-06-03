@@ -1,6 +1,4 @@
-/**
- * Created by Francis on 4/18/2015.
- */
+
 
 // Creates the necessary menu items for the website.
 
