@@ -1,36 +1,46 @@
 <section id="registerPage" ng-controller="RegisterController as Register">
-    <h1>Welcome to the Register Page View</h1>
-    <div ng-controller="TooltipCtrl" ng-class="Register">
-        <div class="Registration">
-            <h2>Login/Register</h2>
+    <h1>Welcome to the Register Page View</h1>      
+</section>
+<div ng-controller="TooltipCtrl" ng-class="Register">
+
+        <div class="Login col-md-6">
+            <h2>Login</h2>
+
             <div class="form-group f">
                 <label>First Name</label>
                 <input type="*First Name" ng-model="dynamicTooltipFirst" class="form-control">
             </div>
+
             <div class="form-group se">
                 <label>Last Name</label>
                 <input type="*Last Name" ng-model="dynamicTooltipLast" class="form-control">
             </div>
+
             <div class="form-group th">
                 <label>City</label>
                 <input type="*City" ng-model="dynamicTooltipCity" class="form-control">
             </div>
+
             <div class="form-group fo">
                 <label>State</label>
                 <input type="*State" ng-model="dynamicTooltipState" class="form-control">
             </div>
+
             <div class="form-group fi">
                 <label>Zip</label>
                 <input type="*Zip" ng-model="dynamicTooltipZip" class="form-control">
             </div>
+
             <div class="form-group si">
                 <label>Email Address</label>
                 <input type="*Email Address" ng-model="dynamicTooltipEmail" class="form-control">
             </div>
+
             <div class="form-group sev">
                 <label>Age</label>
                 <input type="text" ng-model="dynamicTooltipAge" class="form-control">
             </div>
+
             <div class="form-group ei">
                 <label>Gender</label>
                 <br>
@@ -42,25 +52,78 @@
                 <input type="radio" name="genderRadio" value="Other" ng-model="dynamicTooltipGender">
                 <label>Other</label>
             </div>
-          <div class="form-group" value="Submit">
-             <form role="form">
-              <label>Leave a Message</label>
-              <input type="text" value="" tooltip=""  tooltip-trigger="focus" tooltip-placement="right" class="form-control" />
-              </form>
-              <form action="demo.php" method="post">
-              <input type="submit" value="Submit">
-              </form>
-            </div>   
-        </div>
-        <div class="generalFooter">
-            <div class="footerStyle">
-                <blockquote>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                    <footer>Someone famous in
-                        <cite title="Source Title">Source Title</cite>
-                    </footer>
-                </blockquote>
+
+            <div class="form-group" value="Submit">
+                <form role="form">
+                    <label>Leave a Message</label>
+                    <input type="text" value="" tooltip="" tooltip-trigger="focus" tooltip-placement="right" class="form-control" />
+                </form>
+                <form action="demo.php" method="post">
+                    <input type="submit" value="Submit">
+                </form>
             </div>
         </div>
-    </div>
-</section>
+        <div class="Registration col-md-6">
+            <h2>Registration</h2>
+
+            <div class="form-group f">
+                <label>First Name</label>
+                <input type="*First Name" ng-model="dynamicTooltipFirst" class="form-control">
+            </div>
+
+            <div class="form-group se">
+                <label>Last Name</label>
+                <input type="*Last Name" ng-model="dynamicTooltipLast" class="form-control">
+            </div>
+
+            <div class="form-group th">
+                <label>City</label>
+                <input type="*City" ng-model="dynamicTooltipCity" class="form-control">
+            </div>
+
+            <div class="form-group fo">
+                <label>State</label>
+                <input type="*State" ng-model="dynamicTooltipState" class="form-control">
+            </div>
+
+            <div class="form-group fi">
+                <label>Zip</label>
+                <input type="*Zip" ng-model="dynamicTooltipZip" class="form-control">
+            </div>
+
+            <div class="form-group si">
+                <label>Email Address</label>
+                <input type="*Email Address" ng-model="dynamicTooltipEmail" class="form-control">
+            </div>
+
+            <div class="form-group sev">
+                <label>Age</label>
+                <input type="text" ng-model="dynamicTooltipAge" class="form-control">
+            </div>
+
+            <div class="form-group ei">
+                <label>Gender</label>
+                <br>
+                <br>
+                <input type="radio" name="genderRadio" value="Male" ng-model="dynamicTooltipGender">
+                <label>Male</label>
+                <input type="radio" name="genderRadio" value="Female" ng-model="dynamicTooltipGender">
+                <label>Female</label>
+                <input type="radio" name="genderRadio" value="Other" ng-model="dynamicTooltipGender">
+                <label>Other</label>
+            </div>
+
+            <div class="form-group" value="Submit">
+                <form role="form">
+                    <label>Leave a Message</label>
+                    <input type="text" value="" tooltip="" tooltip-trigger="focus" tooltip-placement="right" class="form-control" />
+                </form>
+                <form action="demo.php" method="post">
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+
+        <div ng-controller="generateFooter">
+            <footer ng-bind-html="footerHtml"></footer>
+        </div>

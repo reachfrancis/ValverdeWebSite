@@ -1,3 +1,49 @@
 <section id="productPage" ng-controller="ProductController as product">
-    <h1>Welcome to the Product Page View</h1>
 </section>
+<div class="productsHeader">
+    <h1>Welcome to the Product Page</h1>
+</div>
+<div class="productsBody container">
+    <div class="col-lg-3">
+        <h2>Advanced Computer Programming</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <ol>
+            <li>Data Modeling</li>
+            <li>Database Programming SQl,NoSql,MySQL,MongoDB</li>
+            <li>C#,MVS,Java</li>
+            <li>Javascript,XHTML,CSS, and ETC.</li>
+        </ol>
+        <!--change to angular -->
+    </div>
+    <div class="col-lg-3">
+        <h2>Army Small Computer Program</h2>
+        <p>ASCP was aligned under the Program Executive Officer, Enterprise Information Systems (PEO EIS), with a mission is to support all Army customers' commercial IT requirements - "quickly and economically." The organization continues to work with Army posts, camps and stations around the world, and has become the Army's top source for Information Technology - including hardware, software, and support services.</p>
+    </div>
+    <div class="col-lg-3">
+        <h2>Web Development</h2>
+        <p>
+            <h4>Basic</h4> In practice, many web developers will have basic interdisciplinary skills and roles,
+            <br> including: Graphic design / web design Information architecture and copywriting/copyediting with web usability, accessibility and search engine optimization in mind]
+            <ul>
+                <li>Web design</li>
+                <li>Web content develpoment</li>
+                <li>Client liaison</li>
+                <li>Web server</li>
+                <li>Client-side/Server-side Scripting,</li>
+                <li>Web Server</li>
+                <li>Network Security</li>
+                <li>E-commerce</li>
+            </ul>
+        </p>
+        <p>
+            <h4>Testing</h4> Main article: Software Testing Organizations that build websites typically have a test site (a.k.a. staging site) where a new website is tested to make sure everything works correctly before it goes live on the World Wide Web. After a staging site has been tested and found to be working properly it can be launched to the public. A production site, also called a live site, is usually run a separate server from the staging area. Running the production site and staging server allows developers to make changes to their site and test changes before applying them in real time. The extent of testing varies greatly between organizations, developers, and individual sites or applications.</p>
+    </div>
+    <div class="col-lg-3">
+        <h2>Security</h2>
+        <p>
+            Web development takes into account many security considerations, such as data entry error checking through forms, filtering output, and encryption. Malicious practices such as SQL injection can be executed by users with ill intent yet with only primitive knowledge of web development as a whole. Scripts can be used to exploit websites by granting unauthorized access to malicious users that try to collect information such as email addresses, passwords and protected content like credit card numbers. Some of this is dependent on the server environment (most commonly Apache or Microsoft IIS) on which the scripting language, such as PHP, Ruby, Python, Perl or ASP is running, and therefore is not necessarily down to the web developer themselves to maintain. However, stringent testing of web applications before public release is encouraged to prevent such exploits from occurring. If some contact form is provided in a website it should include a captcha field in it which prevents computer programs from automatically filling forms and also mail spamming.</p>
+    </div>
+</div>
+<div ng-controller="generateFooter">
+    <footer ng-bind-html="footerHtml"></footer>
+</div>

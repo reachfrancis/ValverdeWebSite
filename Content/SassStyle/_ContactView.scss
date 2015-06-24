@@ -2,11 +2,8 @@
 
 .contactForm {
     background-image: url(../images/Grey_business_ppt_template.jpg);
-    color: black;
-    border: 2.5px solid black;
     margin: 0% 0.01% 5% 0.01%;
-    padding: 50px 50px 50px 50px;
-    max-width: 100%;
+    padding: 50;
     position: relative;
     .form-group {
         width: 25%;
@@ -17,32 +14,124 @@
 }
 
 .bodyForm {
-    background-color: #DEDEDB;
-    border: 2.5px solid black;
+    background-color: #ffffff;
     margin-top: -4.99%;
     position: relative;
     .topForm {
-        padding:0 100px; 
-        .row {
-            display: inline-block;
-            padding: 5% 8% 2% 4.6%;
-            
-            .col-sm-6 {
-                width: 250px;
+        .primary-contact {
+            .col-md-4 {
+                // border: 1px solid red;
+                padding: 2.5%;
+                right: 150px;
                 .thumbnail {
-                    height: 40%;
+                    // border: 1px solid blue;
+                    margin: 50px;
+                    height: 270px;
                     .caption {
-                        
+                        // border: 1px solid yellow;
+                        padding:0 0 30px 0;
                         h4 {
+                            // border: 1px solid green;
                             text-align: center;
                         }
                         p {
+                            // border: 1px solid purple;
+                            padding-top: 10px;
                             img {
-                                margin: 20% 25%;
+                                // border: 1px solid gray;
+                                margin-top: 20px;
+                                margin-left:55px;
+
                             }
                         }
                         a {
-                            margin-left: 32%;
+                            // border: 1px solid grey;
+                            margin-top:20px;
+                            margin-left: 70px;
+
+                            .btn {
+                                // border: 1px solid green;
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .secondary-contact {
+            .col-md-4 {
+                // border: 1px solid red;
+                padding: 2.5%;
+                .thumbnail {
+                    // border: 1px solid blue;
+                    margin: 50px;
+                    height: 270px;
+                    .caption {
+                        // border: 1px solid yellow;
+                        padding:0 0 30px 0;
+                        h4 {
+                            // border: 1px solid green;
+                            text-align: center;
+                        }
+                        p {
+                            // border: 1px solid purple;
+                            padding-top: 10px;
+                            img {
+                                // border: 1px solid gray;
+                                margin-top: 20px;
+                                margin-left:55px;
+
+                            }
+                        }
+                        a {
+                            // border: 1px solid grey;
+                            margin-top:20px;
+                            margin-left: 70px;
+
+                            .btn {
+                                // border: 1px solid green;
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .tertiary-contact {
+            .col-md-4 {
+                // border: 1px solid red;
+                padding: 2.5%;
+                left: 170px;
+                .thumbnail {
+                    // border: 1px solid blue;
+                    margin: 50px;
+                    height: 270px;
+                    .caption {
+                        // border: 1px solid yellow;
+                        padding:0 0 30px 0;
+                        h4 {
+                            // border: 1px solid green;
+                            text-align: center;
+                        }
+                        p {
+                            // border: 1px solid purple;
+                            padding-top: 10px;
+                            img {
+                                // border: 1px solid gray;
+                                margin-top: 20px;
+                                margin-left:55px;
+
+                            }
+                        }
+                        a {
+                            // border: 1px solid grey;
+                            margin-top:20px;
+                            margin-left: 70px;
+
+                            .btn {
+                                // border: 1px solid green;
+
+                            }
                         }
                     }
                 }
@@ -50,16 +139,25 @@
         }
     }
     .bottomForm {
-        .container.marketing {
-            padding-bottom: 10%;
+        .container {
             margin-top: 10%;
-            .col-lg-4 {
+            padding-bottom: 10%;
+            .col-md-4 {
                 .img-circle {
-                    margin-left: 30%;
+                    margin-top: -15%;
+                    margin-left: 120px;
                 }
-                h2 {
-                    margin-top: 50%;
-                    margin-left: 33%;
+                .facebook {
+                    margin-top: 25%;
+                    margin-left: 110px;
+                }
+                .linkedin {
+                    margin-top: 25%;
+                    margin-left: 125px;
+                }
+                .twitter {
+                    margin-top: 25%;
+                    margin-left: 135px;
                 }
                 p {
                     text-align: center;
@@ -69,23 +167,12 @@
                         display: inline;
                     }
                 }
-            }
-        }
-    }
-}
-
-.generalFooter {
-    background-color: #244862;
-    position: relative;
-    .footerStyle {
-        padding-bottom: 20px;
-        blockquote {
-            margin-top: 0%;
-            p {
-                color: white;
-            }
-            footer {
-                color: white;
+                &.left {
+                    right: 15%;
+                }
+                &.right {
+                    left: 15%;
+                }
             }
         }
     }

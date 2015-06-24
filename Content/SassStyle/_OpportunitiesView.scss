@@ -1,34 +1,34 @@
 
 .introSection{
 background-image: url(../images/Grey_business_ppt_template.jpg);
-	// border: 2px solid red;
-	// background-color: black;
-	width: 1000px;
+	 // border: 2px solid black;
+	 // background-color: black;
+	margin-top:-20px;
+	width: 100%;
 	height: 500px;
 	p{
 		padding: 20px 20px;
-		margin-bottom: 100px;
 		width: 500px;
 	}
 }
 .searchMenu{
 	margin-top: -500px;
-	// border: 2px solid red;
-	// background-color: black;
+	border: 1px solid black;
 	width: 200px;
 	float: right;
 	.filterList{
 
 	}
 	.searchList{
-		height: 445px;
+		height: 448px;
 	}
 	
 }
 .jobPosting{
 	width: 100%;
-	// border: 2px solid red;
-	// background-color: black;
+	 border-top: 2px solid black;
+	 // background-color: black;
+	 
 	.searchMenu{
 		padding: 40px 40px;
 		
@@ -38,8 +38,8 @@ background-image: url(../images/Grey_business_ppt_template.jpg);
 
 
 .jobDescription{
-	// border: 2px solid red;
-	// background-color: black;
+	 border-top: 2px solid black;
+	 // background-color: black;
 	width: 100%;
 	padding: 20px 20px;
 	

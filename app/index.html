@@ -16,7 +16,7 @@
 <body>
 
   <div class="header">
-      <div data-ng-include src="'MasterLayout/menu/menuView.html'"></div>
+      <div data-ng-include src="'MasterLayout/Menu/menuView.html'"></div>
   </div>
 
   <div class="intro"></div>
@@ -30,17 +30,19 @@
 
 </div>
 
-
+<!-- Angular Framework/Bootstraplibrary -->
 <script src="library/google/angular-1.3.15/angular.js"></script>
 <script src="library/google/angular-1.3.15/angular-route.js"></script>
+<script src="library/google/angular-1.3.15/angular-sanitize.min.js"></script>
 <script src="library/google/ngBootStrap/js/ui-bootstrap-tpls-0.13.0.min.js"></script>
 
-
+<!-- APP Data -->
 <script src="app.js"></script>
-<script src="MasterLayout/menu/menuController.js"></script>
 <script src="localData/menu/dataHeaderMnuConstant.js"></script>
 
-<script src="Home/homePageController.js"></script>
+<!-- APP Controllers -->
+<script src="MasterLayout/Home/homePageController.js"></script>
+<script src="MasterLayout/Menu/menuController.js"></script>
 <script src="MasterLayout/Products/ProductController.js"></script>
 <script src="MasterLayout/ContactUs/ContactUsController.js"></script>
 <script src="MasterLayout/Opportunities/OpportunitiesController.js"></script>

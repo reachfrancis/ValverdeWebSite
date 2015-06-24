@@ -1,0 +1,28 @@
+/// <reference path="_1cssVars.scss">
+/// <reference path="_1mixins.scss">
+// Displays the mainMenu horizontally.
+#header {
+    img {
+        float: left;
+        width: 300px;
+        height: 100px;
+    }
+}
+
+#mainMnu {
+  float:right;
+  margin-top: 40px;
+  margin-right: 4%;
+    .items {
+        
+        li {
+            margin-top: 4%;
+            display: inline;
+            margin-right: 10px;
+        }
+    }
+    
+}
+
+/// <reference path="_1cssVars.scss">
+/// <reference path="_1mixins.scss">

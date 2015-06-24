@@ -40,11 +40,11 @@
               <!--bodyForm-->
       <div class="bodyForm">
                   <!--topForm-->
-          <div class="topForm">
+          <div class="topForm container">
                 
               
-            <div class="row">
-              <div class="col-sm-6 col-md-4">
+            <div class="primary-contact">
+              <div class="col-md-4">
                 <div class="thumbnail">
                   
                   <div class="caption">
@@ -57,8 +57,8 @@
               </div>
 
 
-            <div class="row">
-              <div class="col-sm-6 col-md-4">
+            <div class="secondary-contact">
+              <div class="col-md-4">
                 <div class="thumbnail">
                   
                   <div class="caption">
@@ -72,8 +72,8 @@
 
   
 
-            <div class="row">
-              <div class="col-sm-6 col-md-4">
+            <div class="tertiary-contact">
+              <div class="col-md-4">
                 <div class="thumbnail">
                   
                   <div class="caption">
@@ -90,27 +90,26 @@
                   <!--bottomForm-->
           <div class="bottomForm">
 
-            <div class="container marketing">
-
+            <div class="container"
               <div class="row">
-                  <div class="col-lg-4">
+                  <div class="col-md-4 left">
                       <img class="img-circle" src="../Content/images/Social_Icons/linkedin.png" alt="Generic placeholder image" width="140" height="140">
-                      <h2>Linkedin</h2>
+                      <h2 class="linkedin">Linkedin</h2>
                       <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
                       <p><a class="btn btn-default" href="#" role="button">Link to Linkedin &raquo;</a></p>
-                  </div><!-- /.col-lg-4 -->
-                  <div class="col-lg-4">
+                  </div><!-- /.col-md-4 -->
+                  <div class="col-md-4 center">
                       <img class="img-circle" src="../Content/images/Social_Icons/facebook.png" alt="Generic placeholder image" width="140" height="140">
-                      <h2>Facebook</h2>
+                      <h2 class="facebook">Facebook</h2>
                       <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
                       <p><a class="btn btn-default" href="#" role="button">Link to Facebook &raquo;</a></p>
-                  </div><!-- /.col-lg-4 -->
-                  <div class="col-lg-4">
+                  </div><!-- /.col-md-4 -->
+                  <div class="col-md-4 right">
                       <img class="img-circle" src="../Content/images/Social_Icons/twitter.png" alt="Generic placeholder image" width="140" height="140">
-                      <h2>Twitter</h2>
+                      <h2 class="twitter">Twitter</h2>
                       <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
                       <p><a class="btn btn-default" href="#" role="button">Link to Twitter &raquo;</a></p>
-                  </div><!-- /.col-lg-4 -->
+                  </div><!-- /.col-md-4 -->
                 </div><!-- /.row -->
                </div>  
           </div> <!--/bottomForm/-->
@@ -118,14 +117,9 @@
                                           
      <!--Footer for the contact us page-->
           </div><!--/bodyForm/-->
-          <div  class="generalFooter" >
-       <div class="footerStyle" >
-           <blockquote>
-            <a href="">Terms and Conditions of Use & Disclaimer.</a>
-            <p>This website and its content is copyright of Valverde IT. LLC - © Valverde IT. LLC 2015. All rights reserved.  
-            </p>
-          </blockquote>
-          </div>
+          <div ng-controller="generateFooter">
+            <footer ng-bind-html="footerHtml"></footer> 
+
           </div> 
     </div>    
 </section>

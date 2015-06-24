@@ -1,7 +1,8 @@
 #registerPage{
     background-image: url(../images/Grey_business_ppt_template.jpg);
-    //background-color: #DEDEDB;
     background-color: black;
+    length:50%;
+    height:50%;     
     margin-top: -20px;
     // border: 2.5px solid red;
     h1{
@@ -15,14 +16,12 @@
     }
 }
 $color: white;
-.Registration   {
-
-    opacity: 0.6;
-    // border: 5px solid green;
-    // margin: 10% 5% 0% 5%;
-     padding: 10% 10% 10% 10%;
-     margin-bottom: 10%;
-    background-color:gray;
+.Login   {
+    background-color: white;
+    width:50%;
+    length:25%;   
+    border: 1px solid black;
+    padding: 4% 8% 4% 8%;
     font-weight: bold;
     .form-group {
         opacity: 1;
@@ -56,4 +55,45 @@ $color: white;
             color:$color;
         }
     }
+}
+.Registration{
+    background-color: white;
+    width:50%;
+    length:25%;   
+    border: 1px solid black;
+    padding: 4% 8% 4% 8%;
+    font-weight: bold;
+    .form-group {
+        opacity: 1;w
+        &.f{
+            color:$color;
+        }
+
+        &.se {
+            color:$color;
+        }
+        &.th {
+            color:$color;
+            width: 20%;
+        }
+        &.fo {
+            color:$color;
+            width: 20%;
+        }
+        &.fi {
+            color:$color;
+            width: 20%;
+        }
+        &.si {
+            color:$color;
+            width: 40%;
+        }
+        &.sev {
+            color:$color;
+        }
+        &.ei {
+            color:$color;
+        }
+    }
+
 }
