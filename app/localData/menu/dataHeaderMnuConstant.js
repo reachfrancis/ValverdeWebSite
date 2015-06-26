@@ -11,7 +11,7 @@
 
         return[{  "Name": "Home",
                    "Title": "Home",
-                    "Description": "Our Home Menu",
+                    "Description": "Our Home menu",
                     "SubMenuItems": null
                 },
                 {

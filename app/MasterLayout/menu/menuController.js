@@ -1,5 +1,3 @@
-
-
 // Creates the necessary menu items for the website.
 
 (function() {
@@ -10,16 +8,15 @@
         $log.debug("Hello");
         $log.debug(dataHeaderMnuConstant);
         this.menuItems = dataHeaderMnuConstant;
-        // this.subMenuItems= dataHeaderMnuConstant;
+
 
     };
-    
-   
 
     angular.module('valCorp')
         .controller("MenuController", MenuController)
-        
-       
-
 
 }());
+
+
+
+
