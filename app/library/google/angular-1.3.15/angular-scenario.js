@@ -29005,7 +29005,7 @@ function baseInputType(scope, element, attr, ctrl, $sniffer, $browser) {
       deferListener(event, this, this.value);
     });
 
-    // if user modifies input value using context menu in IE, we need "paste" and "cut" events to catch it
+    // if user modifies input value using context Menu in IE, we need "paste" and "cut" events to catch it
     if ($sniffer.hasEvent('paste')) {
       element.on('paste cut', deferListener);
     }
@@ -34633,7 +34633,7 @@ var ngOptionsMinErr = minErr('ngOptions');
  *  to a non-string value. This is because an option element can only be bound to string values at
  * present.
  *
- * When an item in the `<select>` menu is selected, the array element or object property
+ * When an item in the `<select>` Menu is selected, the array element or object property
  * represented by the selected option will be bound to the model identified by the `ngModel`
  * directive.
  *

@@ -1,7 +1,7 @@
 
 /// <reference path="/app/library/google/angular-1.3.15/angular.js" />
 
-// TODO, move this menu into a separate JSON file and write a service which picks the menu from the
+// TODO, move this Menu into a separate JSON file and write a service which picks the Menu from the
 // the file using the $http service.
 
 (function () {
@@ -11,7 +11,7 @@
 
         return[{  "Name": "Home",
                    "Title": "Home",
-                    "Description": "Our Home menu",
+                    "Description": "Our Home Menu",
                     "SubMenuItems": null
                 },
                 {
