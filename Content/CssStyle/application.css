@@ -81,20 +81,23 @@ img {
     padding: 5%; }
 
 .middlebody .whoWeAre {
-  color: #ffffff;
+  color: #000000;
   border: 1px solid black;
+  background-color: #285074;
   height: 490px; }
   .middlebody .whoWeAre p {
     padding: 5%; }
 .middlebody .whatWeDo {
-  color: #ffffff;
+  color: #000000;
   border: 1px solid black;
+  background-color: #285074;
   height: 490px; }
   .middlebody .whatWeDo p {
     padding: 5%; }
 .middlebody .corpMantra {
-  color: #ffffff;
+  color: #000000;
   border: 1px solid black;
+  background-color: #285074;
   height: 490px; }
   .middlebody .corpMantra p {
     padding: 5%; }
@@ -106,21 +109,21 @@ img {
   .bottombody .loft p {
     padding: 1%; }
 .bottombody .who {
-  color: #ffffff;
+  color: #000000;
   border: 1px solid black;
   background-color: #285074;
   height: 385px; }
   .bottombody .who p {
     padding: 5%; }
 .bottombody .what {
-  color: #ffffff;
+  color: #000000;
   border: 1px solid black;
   background-color: #285074;
   height: 385px; }
   .bottombody .what p {
     padding: 5%; }
 .bottombody .where {
-  color: #ffffff;
+  color: #000000;
   border: 1px solid black;
   background-color: #285074;
   height: 385px; }
@@ -134,7 +137,7 @@ article p {
 .contactForm {
   background-image: url(../images/Grey_business_ppt_template.jpg);
   margin: 0% 0.01% 5% 0.01%;
-  padding: 50px;
+  padding: 50;
   position: relative; }
   .contactForm .form-group {
     width: 25%; }
@@ -327,7 +330,7 @@ article p {
     padding: 20px 20px; }
 
 .productsHeader {
-  background-image: Url("../images/Grey_business_ppt_template.jpg");
+  background-image: url("../images/Grey_business_ppt_template.jpg");
   margin-top: -20px;
   height: 500px;
   width: 100%; }
@@ -335,12 +338,12 @@ article p {
 .productsBody {
   margin-top: 30px;
   width: 100%;
-  height: 60%; }
+  height: 1000px; }
   .productsBody p {
     display: inline; }
 
 .solutionHeader {
-  background-image: Url("../images/Grey_business_ppt_template.jpg");
+  background-image: url("../images/Grey_business_ppt_template.jpg");
   margin-top: -20px;
   height: 500px;
   width: 100%; }
@@ -348,7 +351,7 @@ article p {
 .solutionBody {
   margin-top: 30px;
   width: 100%;
-  height: 60%; }
+  height: 80%; }
   .solutionBody p {
     display: inline; }
 

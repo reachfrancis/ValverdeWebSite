@@ -54,7 +54,7 @@
 
             
            $scope.footerHtml =
-            '<div  class="generalFooter" >'+
+            '<div  class="generalFooter container col-md-12" >'+
             '<div class="footerStyle" >'+
             '<blockquote>'+
             '<a href="">Terms and Conditions of Use & Disclaimer.</a>'+
